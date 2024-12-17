@@ -29,7 +29,8 @@ inventory_final.repartition(sc.defaultParallelism).write \
     .mode('overwrite') \
     .option('overwriteSchema', 'true') \
     .saveAsTable('osa.inventory')
-```python
+```
+
 ## Step 2: Data Cleaning and Processing  
 
 ### Handling Missing Values:  
