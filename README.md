@@ -92,9 +92,9 @@ Multiple visualizations were created to analyze and interpret the results, provi
 
 The complete pipeline for the **OSA Prediction Project** is summarized below:  
 
-Data Loading: Import structured inventory and sales data into Delta Tables.
-Data Cleaning: Handle missing values, remove outliers, and engineer key features.
-Forecasting: Use SES and ARIMA models to predict daily sales trends.
-OOS Detection: Identify deviations and flag out-of-stock events.
-Model Evaluation: Validate model performance using MSE, Accuracy, Precision, and Recall.
-Visualization: Generate bar charts, line graphs, scatterplots, and heatmaps to interpret results.
+- Data Loading: Import structured inventory and sales data into Delta Tables.
+- Data Cleaning: Handle missing values, remove outliers, and engineer key features.
+- Forecasting: Use SES and ARIMA models to predict daily sales trends.
+- OOS Detection: Identify deviations and flag out-of-stock events.
+- Model Evaluation: Validate model performance using MSE, Accuracy, Precision, and Recall.
+- Visualization: Generate bar charts, line graphs, scatterplots, and heatmaps to interpret results.
